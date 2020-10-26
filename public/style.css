@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* Location of the image */
+    background-image: url(images/wallpaper.jpg);
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    /* Background image is fixed in the viewport so that it doesn't move when 
+           the content's height is greater than the image's height */
+    background-attachment: fixed;
+    /* This is what makes the background image rescale based
+           on the container's size */
+    background-size: cover;
+    /* Set a background color that will be displayed
+           while the background image is loading */
+    background-color: #464646;
+}
+
+.container {
+    display: flex;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 15px rgb(26, 6, 6);
+}
+
+.input {
+    width: 50%;
+    padding: 10px;
+    margin: 20px;
+}
